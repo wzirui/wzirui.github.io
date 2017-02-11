@@ -3,7 +3,7 @@ layout: default
 title: Another md file
 ---
 
-#ANOTHER
+# ANOTHER
 
 Just try to see whether this page can be published automatedly by Github under the jekyll theme.
 

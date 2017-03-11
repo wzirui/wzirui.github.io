@@ -4,7 +4,6 @@ title: About Git And GitHub
 ---
 
 # Git & GitHub & Jekyll 初领略
-=====================
 
 <p>05-Mar-2017</p>
 

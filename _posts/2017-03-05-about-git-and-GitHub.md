@@ -1,6 +1,16 @@
-# git & GitHub 初领略
+---
+layout: default
+title: About Git And GitHub
+---
+
+# Git & GitHub & Jekyll 初领略
+=====================
+
+<p>05-Mar-2017</p>
 
 暑假花了一点时间简单学习了一下git和GitHub的用法，因为短期内可能不会用得很频繁，这里总结一下基本使用方法和不错的学习资源，便于以后回顾和进一步学习。
+
+回头把这篇文章拆成三篇。
 
 
 
@@ -97,8 +107,32 @@ markdown是一种标记语言，简洁有效，被GitHub社区大力推广和使
 
 ## GitHub Pages & Jekyll
 
+GitHub Pages这个功能允许你在仓库中托管静态网页文件，然后通过特定的url就可以访问这些网页，从而构建你的个人博客或是项目主页。GitHub Pages相比于一般的博客网站，好处在于可以更加灵活地定制自己的网站样式，同时由于托管在GitHub仓库上，文件的安全性更有保障。当然，正由于其灵活性，它也具有一定的技术门槛，尤其是web开发技术，不过Jekyll+GitHub一定程度上降低了这个门槛。
+
+[GitHub Pages主页](https://pages.github.com/)和
+[GitHub Pages Basics这个专题](https://help.github.com/categories/github-pages-basics/)
+简要介绍了GitHub Pages的基本使用方法，如果想要完全自定义网页的话，知道这些就差不多了，下面说说Jekyll。
+
+Jekyll是用Ruby编写的静态站点生成器，对于符合其规范的网站源码，jekyll可以根据它们来生成静态网页。Jekyll的作者也是GitHub的founder之一，GitHub对Jekyll有很好的原生支持，你只需把符合jekyll规范的网站源码提交到仓库，GitHub会执行Jekyll来生成静态站点，接着你就可以通过访问这个仓库对应的url看到最终的效果。
+
+Jekyll产生的目的主要还是提高网站编写的效率、便利性和结构化程度，核心的网页源码还是要用户自己编写，完全自定义Jekyll源码，对于web开发的技术能力还是有一定要求。GitHub提供了一些已经编写好的主题（模版），用户可以直接使用，或者对其进行修改。可以看到，自由度越高，技术门槛也越高，相对的，想要降低技术门槛，可灵活选择的范围就会缩小。
+
+[阮一峰的这篇博文](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+是对Jekyll的一个很好的入门简介，对Jekyll源码的结构，以及如何在GitHub上部署网站源码，都有一个比较清晰的阐述。
+
+[Customizing GitHub Pages这个专题](https://help.github.com/categories/customizing-github-pages/)
+阐述了如何在GitHub上使用Jekyll，以及如何使用内建的主题，内容比较浅，信息有些杂乱，主要看[第一章节](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)。
+
+如果想认真研究Jekyll的使用，，更加丰富网页的功能，[Jekyll项目的主页](https://jekyllrb.com/)当然是必看的。[主页的文档](https://jekyllrb.com/docs/home/)简洁清晰，前几章是讲如何在本地命令行运行jekyll并预览网页效果的，如果对gem这些Ruby相关的工具不想深入了解的话可以略读。
+
+简单总结一下Jekyll的运行方式：执行liquid语言，提取yaml配置变量，合并模版和文章内容，生成网页。
+
+想要加深理解，可以多看看别人写的Jekyll网站。[这个是GitHub所有的内建主题](https://github.com/pages-themes)，[这个是Jekyll 作者的示例网站](https://github.com/mojombo/mojombo.github.io)，其他用Jekyll搭建的网站还可参考[Jekyll的GitHub主页](https://github.com/jekyll/jekyll/wiki/Sites)。
+
+总的来看，GitHub Pages+Jekyll还是适合极客/web开发者，即那些对自己的网站有强烈掌控欲的人。对于一般的博主，GitHub Pages可能并不是很有吸引力，还有一点，你的GitHub Pages的文章浏览量也极有可能不如在新浪或csdn这样的博客网站。
 
 
 
+## 一些git实验
 
-## 一些实验
+做了一些git相关的实验，回头再放上来。
